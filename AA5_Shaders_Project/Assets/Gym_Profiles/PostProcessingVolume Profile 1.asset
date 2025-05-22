@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4704173458462495938
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc85f7ce639eca499eef650a865e034, type: 3}
+  m_Name: PingPostEffect
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  strength:
+    overrideState: 1
+    value: 1
+  color:
+    overrideState: 1
+    value:
+      r: 1
+      g: 0.92156863
+      b: 0.015686275
+      a: 1
+  width:
+    overrideState: 1
+    value: 0.1
+  speed:
+    overrideState: 1
+    value: 1
+  maxDistance:
+    overrideState: 1
+    value: 30
+  frequency:
+    overrideState: 1
+    value: 0.25
+--- !u!114 &-1890318725592103375
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2072606f3f4ad044db69d53065763668, type: 3}
+  m_Name: WorldPingEffect
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  pingSpeed:
+    overrideState: 1
+    value: 0.2
+  pingWidth:
+    overrideState: 1
+    value: 0.01
+  pingColor:
+    overrideState: 1
+    value:
+      r: 0.88494706
+      g: 1
+      b: 0
+      a: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: PostProcessingVolume Profile 1
+  m_EditorClassIdentifier: 
+  settings: []
