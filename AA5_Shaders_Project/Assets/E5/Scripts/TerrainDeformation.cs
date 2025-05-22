@@ -60,7 +60,6 @@ public class TerrainDeformation : MonoBehaviour
         terrainMaterial.SetFloat("_Zone2", zone2);
         terrainMaterial.SetFloat("_BlendWidth", blendMargin);
 
-        // Calcular el espacio visible de la cámara ortográfica
         float h = heightCam.orthographicSize;
         float w = h * heightCam.aspect;
 
