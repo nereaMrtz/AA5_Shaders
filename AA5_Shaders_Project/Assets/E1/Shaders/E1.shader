@@ -1,9 +1,9 @@
-Shader "Custom/E1_Final_Shield"
+Shader "Custom/E1"
 {
     Properties
     {
-        _Color("Base Color", Color) = (0,1,1,1)
-        _GlowColor("Glow Color", Color) = (0,1,1,1)
+        [HDR]_Color("Base Color", Color) = (0,1,1,1)
+        [HDR]_GlowColor("Glow Color", Color) = (0,1,1,1)
         _MainTex("Main Texture (hex pattern)", 2D) = "white" {}
         _Glossiness("Smoothness", Range(0,1)) = 0.0
         _Metallic("Metallic", Range(0,1)) = 0.0
